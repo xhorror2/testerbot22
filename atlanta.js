@@ -4,6 +4,8 @@ fs = require("fs"),
 readdir = util.promisify(fs.readdir),
 AmeClient = require("amethyste-api"),
 mongoose = require("mongoose");
+client.login(process.env.BOT_TOKEN);
+
 
 // Load Atlanta class
 const Atlanta = require("./base/Atlanta"),
