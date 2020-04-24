@@ -1,4 +1,5 @@
-const { Client: Joker } = require("blague.xyz"),
+const { Client, RichEmbed } = require("discord.js");
+
 util = require("util"),
 fs = require("fs"),
 readdir = util.promisify(fs.readdir),
